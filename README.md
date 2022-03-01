@@ -124,8 +124,7 @@
  @Memory(name = "L2", size = 64)
 
  - RAM -
- @Memory(name = "Memory", size = 96)
- @Memory(name = "Stack", size = 32)
+ @Memory(name = "RAM Memory", size = 128)
 
  - Main Memory
  @Memory(name = "Main Memory", size = 512)
@@ -139,6 +138,7 @@
 
  - Flush Cache -
  @Instruction(name = "FLC", opcode = "001") // Flush L1 Cache
+ 
  - No Operation -
  @Instruction(name = "NOP", opcode = "010") // No Operation
 

@@ -5,7 +5,7 @@
 ------------------------------------------------------------------------------------------------------------------------
 
  - Miscellaneous -
- @Instruction(name = "MSC", operands = 1)
+ @Instruction(name = "MSC", operands = 2)
  @Operand(bit = 5, name = "Load Page") // If high, use operand as page number and load into CPU
  @Operand(bit = 6-8, name = "MSC Table/Page") // Miscellaneous Table at Line TODO
 
